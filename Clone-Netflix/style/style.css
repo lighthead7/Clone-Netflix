@@ -1,0 +1,95 @@
+:root {
+	--verde: lightgreen;
+	--preta: black;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/*base*/
+.body{
+	background: var(--preta);
+	font-family: Times New Roman; Times;
+	color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-left: 7px;
+	color: var(--verde);
+	font-family: 'Arial Black', Times;
+	font-size: 40px;	
+}
+
+.buttons{
+	font-style: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: #AAA;
+	margin-right: 10px;
+}
+
+.buttons:hover {
+	color: #fff;	
+}
+
+/*main poster*/
+.mainposter{
+	font-size: 16px;
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('file:///C:/Program%20Files/Notepad++/Projetos/My%20Netflix/Clone-Netflix/images/Schindlers%20list.jpg');
+	height: 400px;
+	background-size: cover;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: flex-start;
+}
+
+.description{
+	margin: 90px;
+	margin-top: 20px;
+}
+
+.title{
+	font-size: 40px;
+	margin-top: 10%;
+	font-family: 'Trebuchet MS', Arial;
+}
+
+.button{
+	background-color: rgba(0,0,0,.50);
+	border: none;
+	color: white;
+	
+	padding: 15px 30px;
+	margin-bottom: 10%;
+	margin-right: 12px;
+	
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.button:hover{
+	background-color: white;
+	color:black;	
+}
+
+.botton i{
+	margin-right: 8 px;
+}
+
+.carouselmovie {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
